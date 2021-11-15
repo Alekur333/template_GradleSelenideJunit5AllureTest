@@ -39,12 +39,15 @@ compileTestJava {
 dependencies {
     testImplementation (
             'com.codeborne:selenide:5.25.0-selenium-4.0.0',
-            //'org.junit.jupiter:junit-jupiter-api:5.7.0',
             'org.junit.jupiter:junit-jupiter:5.8.1',
             "org.slf4j:slf4j-api:1.7.32",
             "org.assertj:assertj-core:3.19.0",
             "org.aeonbits.owner:owner:1.0.12",
             "io.qameta.allure:allure-selenide:2.16.0",
+//            'commons-io:commons-io:2.11.0',
+//            'com.codeborne:pdf-test:1.7.0',
+//            'com.codeborne:xls-test:1.2',
+//            'com.opencsv:opencsv:5.5.2',
             //'io.rest-assured:rest-assured:4.4.0',
             //"io.qameta.allure:allure-rest-assured:2.15.0"
     )
