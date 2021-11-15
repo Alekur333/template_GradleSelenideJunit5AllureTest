@@ -14,6 +14,8 @@ public class BasePage {
     public static void beforeTest() {
 
         Configuration.browserSize="1200x800";
+//        Configuration.proxyEnabled = true;
+//        Configuration.fileDownload = FileDownloadMode.PROXY;
 
     }
 
