@@ -12,7 +12,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-public class BasePage {
+public class TestBase {
 
     @BeforeAll
     public static void beforeTest() {
